@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 import mysql.connector
+import python-dotenv
 
 def criar_input(telae, nome):
         linha = tk.Frame(telae)
